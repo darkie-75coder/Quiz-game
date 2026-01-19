@@ -137,6 +137,7 @@ function ShowScore() {
     hr.style.height = "10px";
     hr.style.background = "#000";
     Tscore.style.marginTop = "40px";
-    body.style.padding = "10px 100px 100px 100px";
+    body.style.padding = "10px 50px 50px 50px";
     Tscore.innerText = score;
+
 }
