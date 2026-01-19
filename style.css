@@ -45,11 +45,17 @@ body {
 
 .opt {
     padding: 15px;
-    width: 600px;
+    width: 550px;
     text-align: left;
     border-radius: 13px;
     border: 2px solid black;
     font-size: 15px;
+}
+
+@media (max-width: 650px) {
+    .opt {
+        width: 100%;
+    }
 }
 
 .opt:hover {
